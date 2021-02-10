@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar";
+import Carousel from "./components/Carousel";
+import Band from "./components/Band";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Navbar />
+      <Carousel />
+      <Band />
     </div>
   );
 }
